@@ -1,0 +1,303 @@
+* { margin: 0; font-family: Arial; }
+
+html { 
+  font-size: 14px;
+  scroll-behavior: smooth;
+}
+
+body { 
+  display: flex;
+  flex-direction: column; align-items: center;
+}
+
+body header { 
+  width: 100vw;
+
+  display: flex;
+  flex-direction: column; align-items: center;
+}
+
+body header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  width: 100vw;
+  
+  font-size: 1.5rem;
+
+  border-bottom: 4px inset #b1b1b1;
+  background-color: white;
+
+}
+
+body header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+body header nav ul button {
+  width: 10rem;
+  height: 5rem;
+  
+  border: none;
+  background-color: white;
+  
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+body header nav ul button:hover {
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+}
+
+body header section {
+  display: flex;
+  justify-content: space-between; align-items: center;
+  
+  min-height: 37.5rem;
+  width: 100vw;
+    
+  background-image: url("https://wallpaper-house.com/data/out/8/wallpaper2you_207224.jpg");
+  background-size: cover;
+  background-position: 75% 0%;
+}
+
+body header section article {
+  padding-left: 12.5%;
+}
+
+body header section article p { font-size: 1.5rem; }
+body header section article h1 { font-size: 3rem; }
+
+body header section article button { 
+  width: 10rem;
+  height: 3rem;
+  border-radius: 10px; 
+
+  font-size: 1rem;
+}
+ 
+body header section article button:hover { cursor: pointer; }
+
+#hireBtn { background-color: white; border: 2px solid black; }
+#cvBtn { background-color: black; border: 2px solid black; color: white; }
+
+body header section aside {
+  display: flex;
+  flex-direction: column;
+}
+
+body header section aside button {
+  width: 4rem;
+  height: 4rem;
+  
+  border: none;
+  
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  box-shadow: 0px 0px 25px gray;
+  
+  margin: 1.5px;
+}
+
+#fb { background-image: url("https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-64.png"); }
+#tw { background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Twitter_glyph_svg-128.png"); }
+#ig { background-image: url("https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-64.png"); }
+#yt { background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-128.png"); }
+
+body header .largeCard {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 75vw;
+  
+  box-shadow: 0rem 0rem 2.5rem gray;
+  background: white;
+
+  position: relative;
+  bottom: 4rem;
+
+}
+
+body header .largeCard img {
+  margin: 5% 0% 5% 10%;
+  box-shadow: -1.25vw 1.25vw 0rem #444;
+  
+  width: 25%;
+}
+
+body header .largeCard article {
+  margin: 5% 10% 5% 10%;
+  text-align: justify;
+
+  font-size: 1rem;
+}
+
+body header .largeCard button {
+  background: black;
+  color: white;
+  
+  border: none;
+  
+  width: 10rem;
+  height: 3rem;
+
+  font-size: 1rem;
+}
+
+body .content {
+  width: 55rem;
+  margin: 6% 0% 6% 0%;
+}
+
+body .content article {
+  padding: 0% 0% 7.5% 0%;
+  font-size: 1rem;
+}
+
+body .content .gallery { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+body .content .gallery .card {
+  background: #222;
+  
+  width: 17rem;
+  height: 18rem;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  color: white;
+  text-align: center;
+  
+  box-shadow: 0rem 0rem 1.5rem gray;
+}
+
+body .content .gallery .card p { margin: 0% 7.5% 0% 7.5%; color: gray;}
+
+body .content .gallery .card button {
+  width: 8rem;
+  height: 2rem;
+  
+  border-radius: 5px;
+  border: none;
+  
+  font-size: 1rem;
+}
+
+body .extra {
+  background: #111;
+  color: white;
+  
+  width: 100vw;
+}
+
+body .extra .extraContent {
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 7.5% 0% 7.5% 0%;
+}
+
+body .extra .extraContent button { 
+  width: 12rem;
+  height: 3rem; 
+
+  font-size: 1rem;
+}
+
+body footer {
+  background: white;
+  color: white;
+  font-size: 1rem;
+  
+  width: 100vw;
+}
+
+body footer .footerContent {
+  color: #444;
+  text-align: center;
+  font-size: 1.05rem;
+
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 7.5% 15% 7.5% 15%;
+}
+
+body footer .footerContent h1 { color: black; }
+
+body footer .footerContent .social button {
+  width: 3rem;
+  height: 3rem;
+  
+  border: none;
+  border-radius: 50%;
+  
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #999;
+    
+  margin: 0% 7.5px 0% 7.5px;
+}
+
+#rfb { background-image: url("https://cdn3.iconfinder.com/data/icons/picons-social/57/06-facebook-64.png"); }
+#rtw { background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Twitter_glyph_svg-128.png"); }
+#rig { background-image: url("https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-64.png"); }
+#ryt { background-image: url("https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-128.png"); }
+
+/* ----------------------------------------------------- */
+/* Media Screen */
+
+@media (max-width: 850px) {
+  body header .largeCard { 
+    flex-direction: column; 
+    width: 35rem;
+  }
+  body header .largeCard article { margin: 5% 10% 10% 10%; }
+  body header .largeCard img { width: 40%; margin: 10% 10% 5% 10%;}
+  body .content { width: 34.5rem;}
+  body .content .gallery { 
+    flex-direction: column;
+    align-items: space-between;
+  }
+  body .content .gallery .card { 
+    width: 26rem;
+    height: 22rem; 
+  }
+}
+
+@media (max-width: 450px) { 
+  html { 
+    font-size: 8px; 
+  } 
+  body .content .gallery .card { 
+    width: 26rem;
+    height: 22rem; 
+  }
+  body header nav { 
+    flex-direction: column; 
+    padding: 4% 0% 4% 0%;
+  }
+  body header nav ul { padding: 4% 0% 0% 0%; }
+  body .content article { text-align: center; }
+}

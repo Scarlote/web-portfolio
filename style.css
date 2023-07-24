@@ -63,7 +63,7 @@ body header section {
     
   background-image: url("https://img.freepik.com/premium-photo/laptop-with-blank-screen-white-table-grey-background-modern-laptop-mockup-wide-web-banner-copy-space_256259-3545.jpg?w=1060");
   background-size: cover;
-  background-position: 85% 50%;
+  background-position: 85% -50%;
 }
 
 body header section article {

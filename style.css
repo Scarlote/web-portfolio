@@ -63,7 +63,7 @@ body header section {
     
   background-image: url("https://img.freepik.com/premium-photo/banner-with-hands-holding-laptop-mockup-with-white-screen-person-using-computer-showing-presentation-work-copy-space_361816-5845.jpg");
   background-size: contain;
-  background-position: 85% 0%;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 

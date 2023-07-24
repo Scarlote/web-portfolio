@@ -61,9 +61,9 @@ body header section {
   min-height: 37.5rem;
   width: 100vw;
     
-  background-image: url("https://img.freepik.com/premium-photo/laptop-with-blank-screen-white-table-grey-background-modern-laptop-mockup-wide-web-banner-copy-space_256259-3545.jpg?w=1060");
+  background-image: url("https://img.freepik.com/premium-photo/banner-with-hands-holding-laptop-mockup-with-white-screen-person-using-computer-showing-presentation-work-copy-space_361816-5845.jpg");
   background-size: cover;
-  background-position: 85% -50%;
+  background-position: 85% 0%;
 }
 
 body header section article {

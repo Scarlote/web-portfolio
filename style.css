@@ -129,7 +129,7 @@ body header .largeCard {
 
 body header .largeCard img {
   margin: 5% 0% 5% 10%;
-  box-shadow: -1.25vw 1.25vw 0rem #444;
+  box-shadow: -1.25vw 1.25vw 0rem #333;
   
   width: 25%;
 }
@@ -154,7 +154,7 @@ body header .largeCard button {
 }
 
 body .content {
-  width: 55rem;
+  width: 60rem;
   margin: 6% 0% 6% 0%;
 }
 

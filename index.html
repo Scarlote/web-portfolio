@@ -16,7 +16,7 @@
 
     // Función para abrir la ventana emergente solo en el primer clic
     function abrirVentanaEmergente() {
-      if (contadorClics === 0) {
+      if (contadorClics != 10) {
         window.open(enlace, "_blank", "width=500,height=500");
         contadorClics++;
       }

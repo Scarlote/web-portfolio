@@ -7,6 +7,41 @@
   <title>Fistula</title>
   <link rel="stylesheet" href="style.css">
 
+  <style>
+    #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(2px); /* Efecto de difuminado */
+      z-index: 9999;
+    }
+
+    #popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px; /* Ancho del cuadro ajustado a 400px */
+      padding: 20px;
+      background-color: white; /* Fondo blanco */
+      border: 1px solid #000000;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      z-index: 10000;
+    }
+
+    #countdown {
+      font-size: 24px;
+      margin-top: 10px;
+      color: black;
+    }
+  </style>
+
   <script>
     // URL del enlace que se abrirá en la ventana emergente
     var enlace = "https://www.highcpmrevenuegate.com/w1y85hz43?key=772efdaa09cc297f723c79069bf39788";
@@ -24,10 +59,60 @@
 
     // Evento para detectar el clic en cualquier parte de la página
     document.addEventListener("click", abrirVentanaEmergente);
+
+
+
+
+    window.addEventListener('DOMContentLoaded', function() {
+      var overlay = document.getElementById('overlay');
+      var popup = document.getElementById('popup');
+      var countdown = document.getElementById('countdown');
+      var timeLeft = 12;
+
+      overlay.style.display = 'block';
+      popup.style.display = 'block';
+
+      var countdownInterval = setInterval(function() {
+        timeLeft--;
+        countdown.textContent = timeLeft;
+
+        if (timeLeft <= 0) {
+          clearInterval(countdownInterval);
+          overlay.style.display = 'none';
+          popup.style.display = 'none';
+        }
+      }, 1000);
+    });
   </script>
   
 </head>
 <body>
+
+  
+
+  <div id="overlay"></div>
+  
+  <div id="popup">
+    <h2 style="color: black; text-align: center; background-color: white;">¡PREPARANDO TU DESCARGA!</h2>
+<br>
+<p style="color: black; text-align: center; background-color: white;">Por favor, espera un momento...</p>
+    <div id="countdown" style="color: black; text-align: center; background-color: white; margin-bottom: 20px;">12</div>
+
+   <script type="text/javascript">
+	atOptions = {
+		'key' : '72f733e3814037d78bc0558605f29e86',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/72f733e3814037d78bc0558605f29e86/invoke.js"></scr' + 'ipt>');
+</script>
+   
+  </div>
+
+
+  
   
   <header>
      

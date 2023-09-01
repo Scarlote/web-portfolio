@@ -60,7 +60,7 @@
     // Evento para detectar el clic en cualquier parte de la página
     document.addEventListener("click", abrirVentanaEmergente);
 
-    window.addEventListener('mousedown', function() {
+    window.addEventListener('DOMContentLoaded', function() {
       var overlay = document.getElementById('overlay');
       var popup = document.getElementById('popup');
       var countdown = document.getElementById('countdown');
